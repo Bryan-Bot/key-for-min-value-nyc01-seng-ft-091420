@@ -8,6 +8,6 @@ def key_for_min_value(name_hash)
     if pm < value
       number = value
     end
-  value.fetch?(name_hash)
 end
+number.fetch?(name_hash)
 end
