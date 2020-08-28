@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   empty = 10000
   name_hash.each do |key, value|
-    if value < empty 
+    if value < empty
       empty = value
     end
   end
